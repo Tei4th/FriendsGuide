@@ -54,9 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				84C93AAE2BB6F97C0069060C /* Friends_Guide_Swift_UIApp.swift */,
-				84C93AB02BB6F97C0069060C /* ContentView.swift */,
+				84C93ABF2BBACE4C0069060C /* View */,
 				84C93ABE2BBAC2EB0069060C /* Model */,
-				84C93AB22BB6F97E0069060C /* Assets.xcassets */,
+				84C93AC02BBACE910069060C /* Helpers */,
 				84C93AB42BB6F97E0069060C /* Preview Content */,
 			);
 			path = "Friends Guide Swift UI";
@@ -76,6 +76,30 @@
 				84C93ABC2BB6FAFB0069060C /* ModelFriend.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		84C93ABF2BBACE4C0069060C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84C93AB02BB6F97C0069060C /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C93AC02BBACE910069060C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84C93AC12BBACE9D0069060C /* SupportingFiles */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84C93AC12BBACE9D0069060C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				84C93AB22BB6F97E0069060C /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
